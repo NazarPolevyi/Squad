@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdvertApi", "AdvertApi", "{7A4C80AF-45ED-493F-9993-491A991A77CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAdvertisements.AdvertApi", "WebAdvertisements.AdvertApi\WebAdvertisements.AdvertApi.csproj", "{BD748942-F9C8-45E9-A647-4ABAEAEB6B33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAdvertisements.AdvertApi.Models", "WebAdvertisements.AdvertApi.Models\WebAdvertisements.AdvertApi.Models.csproj", "{55688071-EF1C-4309-BF6B-9AA3A74957AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD748942-F9C8-45E9-A647-4ABAEAEB6B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD748942-F9C8-45E9-A647-4ABAEAEB6B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD748942-F9C8-45E9-A647-4ABAEAEB6B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD748942-F9C8-45E9-A647-4ABAEAEB6B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55688071-EF1C-4309-BF6B-9AA3A74957AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55688071-EF1C-4309-BF6B-9AA3A74957AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55688071-EF1C-4309-BF6B-9AA3A74957AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55688071-EF1C-4309-BF6B-9AA3A74957AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BD748942-F9C8-45E9-A647-4ABAEAEB6B33} = {7A4C80AF-45ED-493F-9993-491A991A77CA}
+		{55688071-EF1C-4309-BF6B-9AA3A74957AF} = {7A4C80AF-45ED-493F-9993-491A991A77CA}
+	EndGlobalSection
+EndGlobal
