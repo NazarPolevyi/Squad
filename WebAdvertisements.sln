@@ -1,10 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdvertApi", "AdvertApi", "{7A4C80AF-45ED-493F-9993-491A991A77CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAdvertisements.AdvertApi", "WebAdvertisements.AdvertApi\WebAdvertisements.AdvertApi.csproj", "{BD748942-F9C8-45E9-A647-4ABAEAEB6B33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAdvertisements.AdvertApi", "WebAdvertisements.AdvertApi\WebAdvertisements.AdvertApi.csproj", "{BD748942-F9C8-45E9-A647-4ABAEAEB6B33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAdvertisements.AdvertApi.Models", "WebAdvertisements.AdvertApi.Models\WebAdvertisements.AdvertApi.Models.csproj", "{55688071-EF1C-4309-BF6B-9AA3A74957AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAdvertisements.AdvertApi.Models", "WebAdvertisements.AdvertApi.Models\WebAdvertisements.AdvertApi.Models.csproj", "{55688071-EF1C-4309-BF6B-9AA3A74957AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAdvertisements.SearchWorker", "WebAdvertisements.SearchWorker\WebAdvertisements.SearchWorker.csproj", "{71FBA1BD-0655-4D2B-946E-ED949C80E39F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +25,19 @@ Global
 		{55688071-EF1C-4309-BF6B-9AA3A74957AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55688071-EF1C-4309-BF6B-9AA3A74957AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55688071-EF1C-4309-BF6B-9AA3A74957AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71FBA1BD-0655-4D2B-946E-ED949C80E39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71FBA1BD-0655-4D2B-946E-ED949C80E39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71FBA1BD-0655-4D2B-946E-ED949C80E39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71FBA1BD-0655-4D2B-946E-ED949C80E39F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BD748942-F9C8-45E9-A647-4ABAEAEB6B33} = {7A4C80AF-45ED-493F-9993-491A991A77CA}
 		{55688071-EF1C-4309-BF6B-9AA3A74957AF} = {7A4C80AF-45ED-493F-9993-491A991A77CA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B4C6321-0EDD-4ACE-BE63-B62474A00CCC}
 	EndGlobalSection
 EndGlobal
